@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ARAC | LED-HAAS</title>
+    <!--    FAVICON    -->
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--    CSS    -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="pb-3 text-center text-lg-start bg-light text-muted">
+        <div class="pt-5 row d-flex justify-content-center">
+            <h1>PROTOTYPE LED-HAAS</h1>
+        </div>
+        <img class="mb-3 img-thumbnail mx-auto d-block" src="img/logo_arac.png" alt="logo ARAC">
+    </div>
+
+    <section class="d-flex justify-content-center justify-content-lg-between p-0 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+        </div>
+    </section>
+
+    <div class="container">
+
+        <form class="mt-4">
+            <div class="form-group">
+                <label class="h2" for="InputAfstand">Afstand</label>
+                <input type="afstand" class="form-control" id="InputAfstand" aria-describedby="afstandHelp" placeholder="Vul afstand in...">
+                <small id="afstandHelp" class="form-text text-muted">Afstand ingeven in meter</small>
+            </div>
+            <div class="form-group">
+                <label class="h2" for="InputTijd">Tijd</label>
+                <input type="tijd" class="form-control" id="InputTijd" aria-describedby="tijdHelp" placeholder="Vul hier de tijd in">
+                <small id="tijdHelp" class="form-text text-muted">Tijd ingeven in seconden</small>
+            </div>
+
+            <h2>LED kleur</h2>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Rood</label>
+            </div>
+            <button type="submit" class="mt-4 mb-4 btn btn-dark">Instellen</button>
+        </form>
+
+    </div>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+
+        <section class="d-flex justify-content-center justify-content-lg-between p-0 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+            </div>
+        </section>
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-12 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Project LED-haas Atletiekpiste Arendonk
+                        </h6>
+                        <p>
+                            Dit project is een samenwerking tussen ARAC en de studenten van Thomas More: Digital Innovation<br><br>
+                            Ons team bestaat uit:<br>
+                            * Axl Kesters<br>
+                            * Gillian Heyns<br>
+                            * Jonas Van Hove<br>
+                            * Tobias Geyskens
+                        </p>
+                    </div>
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://www.weareitfactory.be/dagopleiding/di">Thomas More - Digital Innovation</a>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>

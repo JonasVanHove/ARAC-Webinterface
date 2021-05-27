@@ -1,0 +1,31 @@
+:root {
+    --white: #ffffff;
+    --black: #010001;
+    --blue: #1A608F;
+    --lightblue: #71A2BA;
+}
+
+@font-face {
+    font-family: fontArac;
+    src: url(OdibeeSans-Regular.ttf);
+}
+
+h1,
+h2,
+.h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--blue);
+}
+
+h1 {
+    font-family: fontArac;
+    font-size: 2.5rem;
+}
+
+.h2,
+h2 {
+    font-size: 1.25rem;
+}
